@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="hNYAAqSymZ0YNKkiLd2x">
-    <mxGraphModel dx="1290" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,26 @@
         <mxCell id="GfnhyUZuGeiHSdNjZTDy-2" value="INCIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="70" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="GfnhyUZuGeiHSdNjZTDy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GfnhyUZuGeiHSdNjZTDy-5" target="GfnhyUZuGeiHSdNjZTDy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GfnhyUZuGeiHSdNjZTDy-5" value="Obtener el pin donde enviara voltaje" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GfnhyUZuGeiHSdNjZTDy-8" value="setup: Pinmode&lt;div&gt;loop: digitalwrite&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="180" y="171" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GfnhyUZuGeiHSdNjZTDy-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfnhyUZuGeiHSdNjZTDy-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Entrada&lt;/h1&gt;&lt;p&gt;Abrir y cerra automaticamente la cochera y la puerta principal, la puerta.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GfnhyUZuGeiHSdNjZTDy-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cochera&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Se controlara por medio de el sensor magnetico&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-150" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GfnhyUZuGeiHSdNjZTDy-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Habitaciones y sección de pasillok&lt;/h1&gt;&lt;p&gt;Las habitaciones se encenderán las luz cuando se detecte el movimiento.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-150" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
